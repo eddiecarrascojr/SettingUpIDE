@@ -11,40 +11,35 @@ Here is the [VSCode Link](https://code.visualstudio.com/) to download VS Code. I
 Here is the latest [python](https://www.python.org/) if you haven't downloaded it yet.
 Nearly all ML is done in Python or C++.
 
-## 3) Install Anacoda
-Anacoda has become the standard for many people working in AI. You don't have to install it but for best practices I recommend starting to use it so everyone is using the same enviroment and version of python libraries. Link can be found [here](https://www.anaconda.com/).
-
-
-## 4) Test installation and Enviroments
-Now that you have installed all requirements. It is time to setup the enviroment.
-
-Run the command:
-`conda create -n firstenv`
-
-This will create the same conda enviroment from this Github Repo with libraries I use.
-
-Run the command:
-`conda activate firstenv`
-
-This will activate the environment for you to use.
-
-Then install the needed libraries.
-
-Run the command:
-`conda install environment.yml`
-
-## 5) Installing the extension.
+## 3) Installing the extension.
 On the extensions tab in VSCode there are a few extensions I recommended. 
 - Python
 - Pylance
 - Jupyter
 - Jupter Cell Tags
-- WSL (for windows users)
+- FastAI
 - Python Indent
 - Github Copilot (Optional)
 - Github Copilot Chat (Optional)
 
-##6) Run the main.py    
-For Windows User run this commad in the terminal once you set up the virtual enviroment.
+## 4) Install Virtual Environment 
+Now that you have installed all requirements. It is time to setup the enviroment.
+
+Run the command:
+`python -m venv firstenv`
+
+This will create the same conda enviroment from this Github Repo with libraries I use.
+
+Run the command:
+`firstenv/Scripts/activate.bat`
+
+This will activate the environment for you to use.
+
+Then install the needed libraries.
+
+## 5) Run the main.py    
+Note: For Windows User run this commad in the terminal once you set up the virtual enviroment.
 `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+Otherwise run `python main.py` in the terminal.
 If things are succesfull you should get three matrices and an image called results.png
