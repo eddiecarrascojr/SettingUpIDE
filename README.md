@@ -43,3 +43,8 @@ On the extensions tab in VSCode there are a few extensions I recommended.
 - Python Indent
 - Github Copilot (Optional)
 - Github Copilot Chat (Optional)
+
+##6) Run the main.py    
+For Windows User run this commad in the terminal once you set up the virtual enviroment.
+`Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+If things are succesfull you should get three matrices and an image called results.png
