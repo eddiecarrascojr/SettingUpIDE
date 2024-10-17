@@ -17,7 +17,6 @@ On the extensions tab in VSCode there are a few extensions I recommended.
 - Pylance
 - Jupyter
 - Jupter Cell Tags
-- FastAI
 - Python Indent
 - Github Copilot (Optional)
 - Github Copilot Chat (Optional)
@@ -31,11 +30,10 @@ Run the command:
 This will create the same conda enviroment from this Github Repo with libraries I use.
 
 Run the command:
-`firstenv/Scripts/activate.bat`
-
+`firstenv/Scripts/Activate.ps1`
 This will activate the environment for you to use.
-
-Then install the needed libraries.
+Then install the python libraries.:
+* fastai
 
 ## 5) Run the main.py    
 Note: For Windows User run this commad in the terminal once you set up the virtual enviroment.
